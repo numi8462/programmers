@@ -41,8 +41,8 @@ function solution(diffs, times, limit) {
     return left;
 }
 
-diffs = [1, 5, 3];
-times = [2, 4, 7];
-limit = 30;
+diffs = [1, 4, 4, 2];
+times = [6, 3, 8, 2];
+limit = 59;
 
 console.log(solution(diffs,times,limit));
